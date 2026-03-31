@@ -42,15 +42,56 @@ button {
   cursor: pointer;
 }
 
+.BotonPrincipal {
+  font-family: "VT323", monospace;
+  font-size: 25px;
+  background-color: transparent;
+  color: #FFBB00;
+  border: 2.5px solid #FFBB00;
+  max-width: 200px;
+  transition: color 0.5s ease;
+  transition: background-color 0.5s ease;
+  transition: box-shadow 0.65s ease;
+}
+.BotonPrincipal:hover {
+  background-color: #FFBB00;
+  color: #080810;
+  box-shadow: 5px 5px 0 #A17600;
+}
+.BotonPrincipal:hover a {
+  color: #FF2222;
+}
+
 header {
-  display: flex;
-  flex-direction: column;
+  /* Media query Moviles */
+}
+@media (max-width: 1000px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  header img {
+    margin-top: 20px;
+    height: 200px;
+  }
+}
+header {
+  /* Media query PC */
+}
+@media (min-width: 1000px) {
+  header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  header img {
+    min-height: 300px;
+  }
+}
+header {
   align-items: center;
   justify-content: center;
-}
-header .Header_Botones {
-  display: flex;
-  gap: 20px;
+  padding: 20px 40px;
 }
 
 .BotonRecurso {
@@ -60,6 +101,7 @@ header .Header_Botones {
   color: #C8C8E8;
   border: 2.5px solid #1E1E3A;
   border-radius: 10px;
+  padding: 5px 30px;
   transition: color 0.5s ease;
   transition: border-color 0.5s ease;
 }
@@ -69,4 +111,21 @@ header .Header_Botones {
 }
 .BotonRecurso:hover a {
   color: #FF2222;
+}
+
+.Header_SeccionPresentacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Header_SeccionPresentacion p:first-child, .Header_SeccionPresentacion p:nth-of-type(2) {
+  margin-bottom: 40px;
+}
+.Header_SeccionPresentacion h2 {
+  margin-bottom: 40px;
+}
+.Header_SeccionPresentacion .Header_Botones {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=styleHeader.css.map */

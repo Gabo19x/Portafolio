@@ -40,4 +40,24 @@ a {
 
 button {
   cursor: pointer;
+}
+
+.BotonPrincipal {
+  font-family: "VT323", monospace;
+  font-size: 25px;
+  background-color: transparent;
+  color: #FFBB00;
+  border: 2.5px solid #FFBB00;
+  max-width: 200px;
+  transition: color 0.5s ease;
+  transition: background-color 0.5s ease;
+  transition: box-shadow 0.65s ease;
+}
+.BotonPrincipal:hover {
+  background-color: #FFBB00;
+  color: #080810;
+  box-shadow: 5px 5px 0 #A17600;
+}
+.BotonPrincipal:hover a {
+  color: #FF2222;
 }/*# sourceMappingURL=global.css.map */

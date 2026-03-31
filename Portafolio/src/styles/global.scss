@@ -1,5 +1,7 @@
 $ColorPrimario: #FF2222;
 $ColorSecundario: #FFBB00;
+$ColorPrimarioOscuro: #990101;
+$ColorSecundarioOscuro: #A17600;
 
 $ColorFondo: #080810;
 $ColorFondo2: #0E0E1A;
@@ -67,4 +69,26 @@ button {
 }
 
 // Boton Principal
+.BotonPrincipal {
+    font-family: $TextoNormal;
+    font-size: $TextoTamañoSubencabezado;
+    background-color: transparent;
+    color: $ColorSecundario;
+    border: $RadioBorde2 solid $ColorSecundario;
 
+    max-width: 200px;
+
+    transition: color 0.5s ease;
+    transition: background-color 0.5s ease;
+    transition: box-shadow 0.65s ease;
+
+    &:hover {
+        background-color: $ColorSecundario;
+        color: $ColorFondo;
+        box-shadow: 5px 5px 0 $ColorSecundarioOscuro;
+
+        a {
+            color: $ColorPrimario;
+        }
+    }
+}

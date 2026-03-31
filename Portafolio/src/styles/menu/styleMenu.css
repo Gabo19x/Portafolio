@@ -38,6 +38,10 @@ a {
   color: #C8C8E8;
 }
 
+button {
+  cursor: pointer;
+}
+
 nav {
   display: flex;
   justify-content: center;

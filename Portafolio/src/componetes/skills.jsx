@@ -15,7 +15,7 @@ export default function Skills() {
                     <p>
                         Manejo lenguajes de programación como: <span className="ResaltarRojo">HTML, SCSS, JS</span>.
                         También el framework de <span className="ResaltarRojo">REACT</span>.
-                        Manejo buenas practicas de desarrollo y arquitectura.
+                        Manejo buenas practicas de desarrollo y arquitectura como diseño MOBILE FIRST.
                         Trabajo por medio de <span className="ResaltarRojo">visual studio code</span>.
                     </p>
                 </article>

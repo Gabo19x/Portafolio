@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Menu from "./componetes/Menu"
 import Header from "./componetes/Header"
 import Skills from "./componetes/skills"
+import Proyectos from "./componetes/Proyectos"
 
 function App() {
   
@@ -15,10 +16,8 @@ function App() {
 
       <main>
         <Skills/>
+        <Proyectos/>
       </main>
-      
-
-      // Seccion de proyectos
 
       // Seccion de correo
 

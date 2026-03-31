@@ -78,48 +78,65 @@ main {
   color: #FF2222;
 }
 
-nav {
+.Proyectos {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.Proyectos div {
+  margin-top: 60px;
   /* Media query Moviles */
 }
-@media (max-width: 1000px) {
-  nav {
+@media (max-width: 1100px) {
+  .Proyectos div {
+    display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
   }
 }
-nav {
+.Proyectos div {
   /* Media query PC */
 }
-@media (min-width: 1000px) {
-  nav {
-    flex-direction: row;
-    gap: 10%;
+@media (min-width: 1100px) {
+  .Proyectos div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
   }
 }
-nav {
-  background-color: #0E0E1A;
-  border-bottom: 5px solid #1E1E3A;
-  padding: 20px 0;
-}
 
-.BotonMenu {
+.Proyectos_elemento {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  background-color: #0E0E1A;
+  border: 5px solid #1E1E3A;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+.Proyectos_elemento:nth-of-type(odd):hover {
+  border-color: #FF2222;
+  box-shadow: 5px 5px 0 #990101;
+}
+.Proyectos_elemento:nth-of-type(even):hover {
+  border-color: #FFBB00;
+  box-shadow: 5px 5px 0 #A17600;
+}
+.Proyectos_elemento h3 {
+  margin: 20px 0;
+  color: #DBDBDD;
+}
+.Proyectos_elemento span {
   font-family: "VT323", monospace;
   font-size: 25px;
-  background-color: transparent;
-  color: #DBDBDD;
-  border: none;
-  transition: color 0.2s ease;
+  margin-top: 10px;
 }
-.BotonMenu:hover {
-  color: #FF2222;
-}
-.BotonMenu:hover::before {
-  content: "> ";
-}
-.BotonMenu::before {
-  content: "> ";
-  content-visibility: hidden;
-}/*# sourceMappingURL=styleMenu.css.map */
+.Proyectos_elemento .Proyectos_fecha {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  margin: 0;
+  color: #44445A;
+}/*# sourceMappingURL=stylePro.css.map */

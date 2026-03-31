@@ -24,6 +24,9 @@ h2 {
 h3 {
   font-family: "Press Start 2P", monospace;
   font-size: 25px;
+  color: #44445A;
+}
+h3 span {
   color: #DBDBDD;
 }
 
@@ -123,6 +126,7 @@ header {
 }
 .Header_SeccionPresentacion h2 {
   margin-bottom: 40px;
+  color: #FFBB00;
 }
 .Header_SeccionPresentacion .Header_Botones {
   display: flex;

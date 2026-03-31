@@ -45,12 +45,18 @@ h2 {
     font-family: $TextoGrande;
     font-size: $TextoTamañoSubtitulo;
     color: $ColorTexto1;
+
+    
 }
 
 h3 {
     font-family: $TextoGrande;
     font-size: $TextoTamañoSubencabezado;
-    color: $ColorTexto1;
+    color: $ColorTexto3;
+
+    span {
+        color: $ColorTexto1;
+    }
 }
 
 p {
@@ -68,6 +74,20 @@ button {
     cursor: pointer;
 }
 
+main {
+    padding: 20px 40px;
+}
+
+.ResaltarRojo {
+    font-weight: bold;
+    color: $ColorPrimario;
+}
+
+.ResaltarAmarillo {
+    font-weight: bold;
+    color: $ColorSecundario;
+}
+
 // Boton Principal
 .BotonPrincipal {
     font-family: $TextoNormal;
@@ -77,6 +97,7 @@ button {
     border: $RadioBorde2 solid $ColorSecundario;
 
     max-width: 200px;
+    padding: 5px 10px;
 
     transition: color 0.5s ease;
     transition: background-color 0.5s ease;

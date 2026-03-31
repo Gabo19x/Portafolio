@@ -2,24 +2,28 @@ import { useState } from 'react'
 
 import Menu from "./componetes/Menu"
 import Header from "./componetes/Header"
+import Skills from "./componetes/skills"
 
 function App() {
   
 
   return (
-    <main>
+    <>
       <Menu/>
 
       <Header/>
 
-      // Seccion conocimientos
+      <main>
+        <Skills/>
+      </main>
+      
 
       // Seccion de proyectos
 
       // Seccion de correo
 
       // Footer
-    </main>
+    </>
   )
 }
 

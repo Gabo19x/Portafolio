@@ -2,7 +2,6 @@
 
 header {
     
-
     /* Media query Moviles */
     @media (max-width: 1000px) {
         display: flex;
@@ -67,6 +66,7 @@ header {
 
     h2 {
         margin-bottom: 40px;
+        color: $ColorSecundario;
     }
 
     .Header_Botones {

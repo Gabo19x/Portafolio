@@ -1,0 +1,57 @@
+@import "../global.scss";
+
+.Skills {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 100px;
+
+    .Skills_Seccion {
+        margin-top: 60px;
+
+        /* Media query Moviles */
+        @media (max-width: 1100px) {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* Media query PC */
+        @media (min-width: 1100px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+
+        article {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            background-color: $ColorFondo2;
+            border-top: $RadioBorde5 solid $ColorPrimario;
+            border-bottom: $RadioBorde5 solid $ColorPrimario;
+            border-radius: $RadioBorde10;
+
+            padding: 60px 20px;
+
+            svg {
+                height: 100px;
+                color: $ColorTexto3;
+                margin-bottom: 20px;
+            }
+
+            h3 {
+                margin-bottom: 20px;
+            }
+        }
+
+        article:nth-of-type(2) {
+            border-top: $RadioBorde5 solid $ColorSecundario;
+            border-bottom: $RadioBorde5 solid $ColorSecundario;
+        }
+    }
+}

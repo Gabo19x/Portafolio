@@ -1,0 +1,47 @@
+@import "../global.scss";
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Media query Moviles */
+    @media (max-width: 1000px) {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Media query PC */
+    @media (min-width: 1000px) {
+        flex-direction: row;
+        gap: 10%;
+    }
+
+    background-color: $ColorFondo2;
+    border-bottom: $RadioBorde5 solid $ColorFondo3;
+
+    padding: 20px 0;
+}
+
+.BotonMenu {
+    font-family: $TextoNormal;
+    font-size: $TextoTamañoSubencabezado;
+    background-color: transparent;
+    color: $ColorTexto1;
+    border: none;
+
+    transition: color 0.2s ease;
+
+    &:hover {
+        color: $ColorPrimario;
+
+        &::before {
+            content: "> ";
+        }
+    }
+
+    &::before {
+        content: "> ";
+        content-visibility: hidden;
+    }
+}

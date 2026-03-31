@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #080810;
+}
+
+h1 {
+  font-family: "Press Start 2P", monospace;
+  font-size: 50px;
+  color: #FF2222;
+}
+
+h2 {
+  font-family: "Press Start 2P", monospace;
+  font-size: 35px;
+  color: #DBDBDD;
+}
+
+h3 {
+  font-family: "Press Start 2P", monospace;
+  font-size: 25px;
+  color: #DBDBDD;
+}
+
+p {
+  font-family: "VT323", monospace;
+  font-size: 20px;
+  color: #C8C8E8;
+}
+
+a {
+  text-decoration: none;
+  color: #C8C8E8;
+}
+
+button {
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header .Header_Botones {
+  display: flex;
+  gap: 20px;
+}
+
+.BotonRecurso {
+  font-family: "VT323", monospace;
+  font-size: 25px;
+  background-color: #0E0E1A;
+  color: #C8C8E8;
+  border: 2.5px solid #1E1E3A;
+  border-radius: 10px;
+  transition: color 0.5s ease;
+  transition: border-color 0.5s ease;
+}
+.BotonRecurso:hover {
+  border-color: #FF2222;
+  color: #FF2222;
+}
+.BotonRecurso:hover a {
+  color: #FF2222;
+}/*# sourceMappingURL=styleHeader.css.map */

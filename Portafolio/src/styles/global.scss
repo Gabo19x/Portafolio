@@ -1,0 +1,70 @@
+$ColorPrimario: #FF2222;
+$ColorSecundario: #FFBB00;
+
+$ColorFondo: #080810;
+$ColorFondo2: #0E0E1A;
+$ColorFondo3: #1E1E3A;
+
+$ColorTexto1: #DBDBDD;
+$ColorTexto2: #C8C8E8;
+$ColorTexto3: #44445A;
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+
+$TextoGrande: 'Press Start 2P', monospace;
+$TextoNormal: 'VT323', monospace;
+
+$TextoTamañoTitulo: 50px;
+$TextoTamañoSubtitulo: 35px;
+$TextoTamañoSubencabezado: 25px;
+$TextoTamañoParrafo: 20px;
+
+$RadioBorde10: 10px;
+$RadioBorde5: 5px;
+$RadioBorde2: 2.5px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $ColorFondo;
+}
+
+h1 {
+    font-family: $TextoGrande;
+    font-size: $TextoTamañoTitulo;
+    color: $ColorPrimario;
+}
+
+h2 {
+    font-family: $TextoGrande;
+    font-size: $TextoTamañoSubtitulo;
+    color: $ColorTexto1;
+}
+
+h3 {
+    font-family: $TextoGrande;
+    font-size: $TextoTamañoSubencabezado;
+    color: $ColorTexto1;
+}
+
+p {
+    font-family: $TextoNormal;
+    font-size: $TextoTamañoParrafo;
+    color: $ColorTexto2;
+}
+
+a {
+    text-decoration: none;
+    color: $ColorTexto2;
+}
+
+button {
+    cursor: pointer;
+}
+
+// Boton Principal
+

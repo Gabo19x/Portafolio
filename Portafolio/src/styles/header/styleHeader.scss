@@ -1,0 +1,34 @@
+@import "../global.scss";
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .Header_Botones {
+        display: flex;
+        gap: 20px;
+    }
+}
+
+.BotonRecurso {
+    font-family: $TextoNormal;
+    font-size: $TextoTamañoSubencabezado;
+    background-color: $ColorFondo2;
+    color: $ColorTexto2;
+    border: $RadioBorde2 solid $ColorFondo3;
+    border-radius: $RadioBorde10;
+
+    transition: color 0.5s ease;
+    transition: border-color 0.5s ease;
+
+    &:hover {
+        border-color: $ColorPrimario;
+        color: $ColorPrimario;
+
+        a {
+            color: $ColorPrimario;
+        }
+    }
+}

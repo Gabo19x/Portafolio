@@ -5,14 +5,21 @@ nav {
     justify-content: center;
     align-items: center;
 
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+
     /* Media query Moviles */
-    @media (max-width: 1000px) {
-        flex-direction: column;
+    @media (max-width: 800px) {
+        flex-direction: row;
         gap: 10px;
     }
 
     /* Media query PC */
-    @media (min-width: 1000px) {
+    @media (min-width: 800px) {
         flex-direction: row;
         gap: 10%;
     }
@@ -34,14 +41,7 @@ nav {
 
     &:hover {
         color: $ColorPrimario;
-
-        &::before {
-            content: "> ";
-        }
     }
 
-    &::before {
-        content: "> ";
-        content-visibility: hidden;
-    }
+    
 }

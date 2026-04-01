@@ -2,7 +2,7 @@ import "../styles/skills/styleSkills.css"
 
 export default function Skills() {
     return(
-        <section className="Skills">
+        <section className="Skills" id="SeccionSkills">
             <h3># <span>Conocimientos</span> -----</h3>
 
             <section className="Skills_Seccion">

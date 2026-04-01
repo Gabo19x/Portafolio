@@ -9,6 +9,10 @@ body {
   background-color: #080810;
 }
 
+main {
+  position: relative;
+}
+
 h1 {
   font-family: "Press Start 2P", monospace;
   font-size: 50px;
@@ -82,18 +86,23 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
   /* Media query Moviles */
 }
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
   nav {
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
   }
 }
 nav {
   /* Media query PC */
 }
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
   nav {
     flex-direction: row;
     gap: 10%;
@@ -115,11 +124,4 @@ nav {
 }
 .BotonMenu:hover {
   color: #FF2222;
-}
-.BotonMenu:hover::before {
-  content: "> ";
-}
-.BotonMenu::before {
-  content: "> ";
-  content-visibility: hidden;
 }/*# sourceMappingURL=styleMenu.css.map */

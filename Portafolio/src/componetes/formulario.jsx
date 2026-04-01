@@ -3,9 +3,7 @@ import "../styles/formulario/styleForm.css"
 export default function Formulario() {
     
     return (
-        <>
-
-        <section className="Formulario">
+        <section className="Formulario" id="SeccionCorreo">
             <h3># <span>Envíame un correo ¿No?</span> -----</h3>
 
             <section className="Formulario_contenido">
@@ -34,6 +32,5 @@ export default function Formulario() {
             </section>
 
         </section>
-        </>
     );
 }

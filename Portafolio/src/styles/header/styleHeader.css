@@ -9,6 +9,10 @@ body {
   background-color: #080810;
 }
 
+main {
+  position: relative;
+}
+
 h1 {
   font-family: "Press Start 2P", monospace;
   font-size: 50px;
@@ -85,6 +89,7 @@ header {
   header {
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
   }
   header img {
     margin-top: 20px;
@@ -99,6 +104,7 @@ header {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr;
+    margin-top: 50px;
   }
   header img {
     min-height: 300px;

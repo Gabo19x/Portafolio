@@ -4,7 +4,7 @@ import "../styles/header/styleHeader.css"
 export default function Header() {
     return(
         <header>
-            <section className="Header_SeccionPresentacion">
+            <section className="Header_SeccionPresentacion" id="SeccionPrese">
                 <p>Bienvenido a mi portafolio. Hola soy...</p>
 
                 <h1>Gabriel Arturo Pinzón Páez</h1>

@@ -12,9 +12,9 @@ export default function Header() {
                 <p>"Los grandes productos, son primero: útiles, luego usables, por ultimo bonitos" - Anónimo</p>
 
                 <div className="Header_Botones">
-                    <button className="BotonRecurso"><a href="https://github.com/Gabo19x">Github</a></button>
-                    <button className="BotonRecurso"><a href="https://www.linkedin.com/in/gabriel-pinz%C3%B3n/">LinkedIn</a></button>
-                    <button className="BotonRecurso">Correo</button>
+                    <a className="BotonRecurso" href="https://github.com/Gabo19x">Github</a>
+                    <a className="BotonRecurso" href="https://www.linkedin.com/in/gabriel-pinz%C3%B3n/">LinkedIn</a>
+                    <a href="#SeccionCorreo" className="BotonRecurso">Correo</a>
                 </div>
 
                 <a className="BotonPrincipal" href="#SeccionProyectos">Ver proyectos</a>

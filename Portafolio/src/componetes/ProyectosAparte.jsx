@@ -52,7 +52,7 @@ export default function ProyectosAparte() {
                 <span className="ResaltarAmarillo">Ver proyecto -{">"} </span>
             </a>
 
-            <a className="Proyectos_elemento" href="https://jardin-culinario.netlify.app/busqueda-avanzada">
+            <a className="Proyectos_elemento" href="https://jardin-culinario.netlify.app">
                 <p className="Proyectos_fecha">/2024</p>
                 <h3>🍖 Libro de cocina</h3>
                 <p>

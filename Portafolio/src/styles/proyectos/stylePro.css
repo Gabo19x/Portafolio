@@ -9,6 +9,10 @@ body {
   background-color: #080810;
 }
 
+main {
+  position: relative;
+}
+
 h1 {
   font-family: "Press Start 2P", monospace;
   font-size: 50px;

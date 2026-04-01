@@ -4,6 +4,7 @@ import Menu from "./componetes/Menu"
 import Header from "./componetes/Header"
 import Skills from "./componetes/skills"
 import Proyectos from "./componetes/Proyectos"
+import Formulario from './componetes/formulario'
 
 function App() {
   
@@ -17,9 +18,9 @@ function App() {
       <main>
         <Skills/>
         <Proyectos/>
+        <Formulario/>
       </main>
 
-      // Seccion de correo
 
       // Footer
     </>

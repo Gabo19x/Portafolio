@@ -1,0 +1,84 @@
+@import "../global.scss";
+
+.Formulario {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 100px;
+
+    .Formulario_contenido {
+        /* Media query Moviles */
+        @media (max-width: 1000px) {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+            
+        }
+
+        /* Media query PC */
+        @media (min-width: 1000px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+        margin-top: 60px;
+    }
+}
+
+.Formulario_contenido_texto {
+    p:first-child {
+        color: $ColorTexto1;
+        font-size: $TextoTamañoSubencabezado;
+    }
+}
+
+.Formulario_contenido_correo {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+
+    form {
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+
+        label {
+            font-family: $TextoNormal;
+            font-size: $TextoTamañoSubencabezado;
+            color: $ColorTexto3;
+        }
+
+        input {
+            font-family: $TextoNormal;
+            font-size: $TextoTamañoParrafo;
+            color: $ColorTexto2;
+            background-color: transparent;
+            border: $RadioBorde2 solid $ColorFondo3;
+
+            width: 80%;
+            padding: 5px 10px;
+        }
+
+        textarea {
+            font-family: $TextoNormal;
+            font-size: $TextoTamañoParrafo;
+            color: $ColorTexto2;
+            background-color: transparent;
+            border: $RadioBorde2 solid $ColorFondo3;
+            
+            height: 50%;
+            width: 80%;
+            padding: 5px 10px;
+        }
+
+        button {
+            margin-top: 20px;
+        }
+    }
+}

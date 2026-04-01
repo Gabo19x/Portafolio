@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #080810;
+}
+
+h1 {
+  font-family: "Press Start 2P", monospace;
+  font-size: 50px;
+  color: #FF2222;
+}
+
+h2 {
+  font-family: "Press Start 2P", monospace;
+  font-size: 35px;
+  color: #DBDBDD;
+}
+
+h3 {
+  font-family: "Press Start 2P", monospace;
+  font-size: 25px;
+  color: #44445A;
+}
+h3 span {
+  color: #DBDBDD;
+}
+
+p {
+  font-family: "VT323", monospace;
+  font-size: 20px;
+  color: #C8C8E8;
+}
+
+a {
+  text-decoration: none;
+  color: #C8C8E8;
+}
+
+button {
+  cursor: pointer;
+}
+
+main {
+  padding: 20px 40px;
+}
+
+.ResaltarRojo {
+  color: #FF2222;
+}
+
+.ResaltarAmarillo {
+  color: #FFBB00;
+}
+
+.BotonPrincipal {
+  font-family: "VT323", monospace;
+  font-size: 25px;
+  background-color: transparent;
+  color: #FFBB00;
+  border: 2.5px solid #FFBB00;
+  max-width: 200px;
+  padding: 5px 10px;
+  transition: color 0.5s ease;
+  transition: background-color 0.5s ease;
+  transition: box-shadow 0.65s ease;
+}
+.BotonPrincipal:hover {
+  background-color: #FFBB00;
+  color: #080810;
+  box-shadow: 5px 5px 0 #A17600;
+}
+.BotonPrincipal:hover a {
+  color: #FF2222;
+}
+
+.Formulario {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.Formulario .Formulario_contenido {
+  /* Media query Moviles */
+}
+@media (max-width: 1000px) {
+  .Formulario .Formulario_contenido {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+.Formulario .Formulario_contenido {
+  /* Media query PC */
+}
+@media (min-width: 1000px) {
+  .Formulario .Formulario_contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+}
+.Formulario .Formulario_contenido {
+  margin-top: 60px;
+}
+
+.Formulario_contenido_texto p:first-child {
+  color: #DBDBDD;
+  font-size: 25px;
+}
+
+.Formulario_contenido_correo {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+}
+.Formulario_contenido_correo form {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.Formulario_contenido_correo form label {
+  font-family: "VT323", monospace;
+  font-size: 25px;
+  color: #44445A;
+}
+.Formulario_contenido_correo form input {
+  font-family: "VT323", monospace;
+  font-size: 20px;
+  color: #C8C8E8;
+  background-color: transparent;
+  border: 2.5px solid #1E1E3A;
+  width: 80%;
+  padding: 5px 10px;
+}
+.Formulario_contenido_correo form textarea {
+  font-family: "VT323", monospace;
+  font-size: 20px;
+  color: #C8C8E8;
+  background-color: transparent;
+  border: 2.5px solid #1E1E3A;
+  height: 50%;
+  width: 80%;
+  padding: 5px 10px;
+}
+.Formulario_contenido_correo form button {
+  margin-top: 20px;
+}/*# sourceMappingURL=styleForm.css.map */

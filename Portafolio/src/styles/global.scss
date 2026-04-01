@@ -35,6 +35,10 @@ body {
     background-color: $ColorFondo;
 }
 
+main {
+    position: relative;
+}
+
 h1 {
     font-family: $TextoGrande;
     font-size: $TextoTamañoTitulo;
@@ -45,8 +49,6 @@ h2 {
     font-family: $TextoGrande;
     font-size: $TextoTamañoSubtitulo;
     color: $ColorTexto1;
-
-    
 }
 
 h3 {
@@ -110,37 +112,4 @@ main {
             color: $ColorPrimario;
         }
     }
-}
-
-// Alertas
-.ContenedorToast {
-    position: "fixed";
-    bottom: "24px";
-    right: "24px";
-
-    display: flex;
-    flex-direction: column;
-    gap: "10px";
-
-    z-index: 9999;
-}
-
-.Toast {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-
-    padding: 10px 15px;
-    border-radius: $RadioBorde10;
-    color: $ColorFondo;
-
-    font-family: $TextoNormal;
-    font-size: $TextoTamañoParrafo;
-    color: $ColorFondo3;
-    background-color: $ColorSecundario;
-
-    min-width: 200px;
-    max-width: 300px;
-
-    animation: slideIn 0.3s ease;
 }

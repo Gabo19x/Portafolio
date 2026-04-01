@@ -5,6 +5,7 @@ import Header from "./componetes/Header"
 import Skills from "./componetes/skills"
 import Proyectos from "./componetes/Proyectos"
 import Formulario from './componetes/formulario'
+import Footer from './componetes/Footer'
 
 function App() {
   
@@ -21,8 +22,7 @@ function App() {
         <Formulario/>
       </main>
 
-
-      // Footer
+      <Footer/>
     </>
   )
 }

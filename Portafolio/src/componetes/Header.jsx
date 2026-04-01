@@ -8,7 +8,7 @@ export default function Header() {
                 <p>Bienvenido a mi portafolio. Hola soy...</p>
 
                 <h1>Gabriel Arturo Pinzón Páez</h1>
-                <h2>Desarrollador web enfocado en el frontend</h2>
+                <h2>Desarrollador web, enfocado en el frontend</h2>
                 <p>"Los grandes productos, son primero: útiles, luego usables, por ultimo bonitos" - Anónimo</p>
 
                 <div className="Header_Botones">
@@ -17,7 +17,7 @@ export default function Header() {
                     <button className="BotonRecurso">Correo</button>
                 </div>
 
-                <button className="BotonPrincipal">Ver proyectos</button>
+                <a className="BotonPrincipal" href="#SeccionProyectos">Ver proyectos</a>
             </section>
 
             <section className="Header_SeccionImagen">

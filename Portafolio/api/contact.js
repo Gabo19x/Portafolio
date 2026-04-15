@@ -8,7 +8,7 @@ export default async function handler(req, res) {
         return res.status(405).json({ error: "No es POST" });
     }
 
-    const { correo, mensaje } = req.body;
+    const { nombre, correo, mensaje } = req.body;
 
     if (!correo || !mensaje) {
         return res.status(400).json({ error: "Faltan campos" });
@@ -18,11 +18,11 @@ export default async function handler(req, res) {
         await resend.emails.send({ 
             from: 'onboarding@resend.dev',
             to: 'arturopinzon19@gmail.com',
-            subject: 'MENSAJE AUTO | Mi portafolio',
+            subject: `Mi portafolio | Mensaje de: ${nombre}`,
             html: `
-                <h2>Nuevo mensaje de contacto</h2>
-                <p><strong>De:</strong> ${correo}</p>
-                <p><strong>Mensaje:</strong></p>
+                <h3>Correo del portafolio de: ${nombre}</h3>
+                <p><strong>Por:</strong> ${correo}</p>
+                <br>
                 <p>${mensaje}</p>
             `,
         });

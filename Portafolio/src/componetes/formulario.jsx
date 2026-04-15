@@ -3,6 +3,7 @@ import {useState} from "react"
 import "../styles/formulario/styleForm.css"
 
 export default function Formulario() {
+    const [nombre, setNombre] = useState("")
     const [correo, setCorreo] = useState("")
     const [mensaje, setMensaje] = useState("")
     const [estado, setEstado] = useState(null)
@@ -15,15 +16,16 @@ export default function Formulario() {
             const res = await fetch("/api/contact", {
                 method: "POST",
                 headers: {"Content-Type": "application/json"},
-                body: JSON.stringify({correo, mensaje})
+                body: JSON.stringify({nombre, correo, mensaje})
             })
 
             const data = await res.json()
 
             if(res.ok) {
                 setEstado("OK")
-                setCorreo("ejemplo@sex.com")
-                setMensaje("Prepara esas nalgas")
+                setNombre("")
+                setCorreo("")
+                setMensaje("")
             } else {
                 console.log("ERROR, algo salio mal")
                 setEstado("ERROR")
@@ -62,6 +64,16 @@ export default function Formulario() {
 
                 <div className="Formulario_contenido_correo">
                     <form onSubmit={Enviar}>
+                        <label htmlFor="nombre">Nombre</label>
+                        <input 
+                            type="text" 
+                            id="nombre" 
+                            placeholder="Tú nombre" 
+                            value={nombre} 
+                            onChange={(e) => setNombre(e.target.value)}
+                            required
+                        />
+
                         <label htmlFor="correo">Correo</label>
                         <input 
                             type="email" 

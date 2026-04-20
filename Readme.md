@@ -11,3 +11,6 @@ Fue elaborado con REACT.
 - Conocimientos.
 - Proyectos.
 - Contacto por correo.
+
+> [!TIP]
+> Usa resend para enviar correos

@@ -95,18 +95,6 @@ export default function ProyectosAparte() {
                 </p>
                 <span className="ResaltarAmarillo">Ver proyecto -{">"} </span>
             </a>
-
-            <a className="Proyectos_elemento" href="https://github.com/Gabo19x/Acertijo100?tab=readme-ov-file">
-                <p className="Proyectos_fecha">/2022</p>
-                <h3>🧠 Acertijo del prisionero</h3>
-                <p>
-                    Es una de las primeras web elaboradas, este proyecto vino como inspiración
-                    por un reto que me puse: el cual es recrear la solución al <span className="ResaltarRojo">acertijo de los 100 prisioneros</span>.
-                    (Un acertijo de teoría de probabilidad interesante a resolver)
-                    La página no tiene un diseño dedicado, solamente es funcional.
-                </p>
-                <span className="ResaltarRojo">Ver proyecto -{">"} </span>
-            </a>
         </div>
     );
 }

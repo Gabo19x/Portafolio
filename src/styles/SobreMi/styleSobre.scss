@@ -1,0 +1,13 @@
+@import "../global.scss";
+
+.SobreMi {
+    margin-top: 100px;
+
+    .Textos {
+        margin: 2% 10% 5% 10%;
+
+        p {
+            font-size: $TextoTamañoSubencabezado;
+        }
+    }
+}

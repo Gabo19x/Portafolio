@@ -7,15 +7,19 @@ export default function SobreMi() {
 
         <div className="Textos">
             <p>
-              Estudio <span className="ResaltarAmarillo">ingeniería de sistemas</span> en la <span className="ResaltarAmarillo">UNAD</span> (universidad abierta y a distancia de colombia); 
-              además tengo un titulo de <span className="ResaltarAmarillo">tecnólogo en analisis y desarrollo de sistemas de información del SENA</span> .
+              Soy desarrollador <span className="ResaltarAmarillo">web frontend con enfoque en React</span>, diseño UI/UX y experiencia construyendo productos reales. 
+              Me especializo en crear interfaces funcionales, bien diseñadas y pensadas para el usuario, combinando código y criterio de diseño en cada proyecto.
             </p>
             <br />
-
             <p>
-              Y soy principalmente desarrollador <span className="ResaltarRojo">web frontend</span>, pero también conozco las <span className="ResaltarRojo">funciones serverless y uso BaaS</span> para apoyar el backend.
-              Algo a destacar, es que tengo conocimientos de <span className="ResaltarRojo">diseño web y UI/UX</span>, esto para entender mejor el producto y a quién va dirigido.
-              Además, conozco y uso <span className="ResaltarRojo">herramientas IA</span> para optimización de mi trabajo, como: claude, kilo code, y la creación de prompts...
+              <span className="ResaltarRojo">Lo que me diferencia es que no solo desarrollo:</span> diseño primero en Figma, entiendo al usuario y al cliente, y luego construyo. 
+              Esto me permite trabajar de forma más autónoma y comunicarme mejor con equipos de diseño o con clientes directos. 
+              Además, integro herramientas de IA como Claude y Kilo Code en mi flujo de trabajo para ser más eficiente y entregar mejor código.
+            </p>
+            <br />
+            <p>
+              Cuento con título de <span className="ResaltarAmarillo">Tecnólogo en Análisis y Desarrollo de Sistemas del SENA </span>  
+              y actualmente curso <span className="ResaltarAmarillo">Ingeniería de Sistemas en la UNAD</span> (universidad nacional abierta y a distancia), Colombia.
             </p>
         </div>
         

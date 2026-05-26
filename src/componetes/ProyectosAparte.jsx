@@ -31,8 +31,8 @@ export default function ProyectosAparte() {
                 <h3>🎶 Máquina rítmica IA</h3>
                 <p>
                     Es una demostración de uso de IA, por medio de <span className="ResaltarRojo">artefactos CLAUDE </span>
-                        se crea una web la cual da la posibilidad al usuario a crear sencillos ritmos,
-                    hay ejemplos y pueden descargar su trabajo.
+                    el cual se integra en una web propia, pero ademas modifique aspectos para hacer mas completa la web,
+                    como ejemplos, un tamaño aumentado, eliminacion de objetos innecesarios y posibilidad de descargar los ritmos.
                     
                 </p>
                 <span className="ResaltarRojo">Ver proyecto -{">"} </span>
@@ -75,26 +75,7 @@ export default function ProyectosAparte() {
                 <span className="ResaltarAmarillo">Ver proyecto -{">"} </span>
             </a>
 
-            <a className="Proyectos_elemento" href="https://csslearn.netlify.app/">
-                <p className="Proyectos_fecha">/2023</p>
-                <h3>📚 CSS learn</h3>
-                <p>
-                    Una web para consultar conceptos de <span className="ResaltarRojo">CSS y SASS</span>.
-                    Lo más importante son los ejemplos prácticos y el repositorio del código para aprender.
-                    Es uno de los primeros proyectos, para practicar mis propios conocimientos y compartirlos.
-                </p>
-                <span className="ResaltarRojo">Ver proyecto -{">"} </span>
-            </a>
-
-            <a className="Proyectos_elemento" href="https://proyecto-web-blog-a03.netlify.app/">
-                <p className="Proyectos_fecha">/2023</p>
-                <h3>💖 Diseño web</h3>
-                <p>
-                    Uno de mis primeros proyectos, el cual es un diseño de un blog.
-                    Fue hecho con el apoyo de profesores, en momentos iniciales de mi aprendizaje.
-                </p>
-                <span className="ResaltarAmarillo">Ver proyecto -{">"} </span>
-            </a>
+            
         </div>
     );
 }
@@ -103,23 +84,24 @@ export default function ProyectosAparte() {
 <span className="ResaltarRojo"> </span>
 <span className="ResaltarAmarillo"> </span> 
 
-<a className="Proyectos_elemento" href="https://broswe-ia-gabox.netlify.app/">
-    <p className="Proyectos_fecha">/2026</p>
-    <h3>🤖 Browser IA</h3>
+<a className="Proyectos_elemento" href="https://csslearn.netlify.app/">
+    <p className="Proyectos_fecha">/2023</p>
+    <h3>📚 CSS learn</h3>
     <p>
-        Es una pagina web, la cual imita servicios como Claude o ChatGPT, donde puedes usar una IA localmente.
-        Usa la librería <span className="ResaltarRojo">WEB-LLM</span>, y elaborada en <span className="ResaltarRojo">JS</span>.
+        Una web para consultar conceptos de <span className="ResaltarRojo">CSS y SASS</span>.
+        Lo más importante son los ejemplos prácticos y el repositorio del código para aprender.
+        Es uno de los primeros proyectos, para practicar mis propios conocimientos y compartirlos.
     </p>
     <span className="ResaltarRojo">Ver proyecto -{">"} </span>
 </a>
 
-<a className="Proyectos_elemento" href="https://broswe-ia-gabox.netlify.app/">
-    <p className="Proyectos_fecha">/2026</p>
-    <h3>🤖 Browser IA</h3>
+<a className="Proyectos_elemento" href="https://proyecto-web-blog-a03.netlify.app/">
+    <p className="Proyectos_fecha">/2023</p>
+    <h3>💖 Diseño web</h3>
     <p>
-        Es una pagina web, la cual imita servicios como Claude o ChatGPT, donde puedes usar una IA localmente.
-        Usa la librería <span className="ResaltarAmarillo">WEB-LLM</span>, y elaborada en <span className="ResaltarAmarillo">JS</span>.
+        Uno de mis primeros proyectos, el cual es un diseño de un blog.
+        Fue hecho con el apoyo de profesores, en momentos iniciales de mi aprendizaje.
     </p>
     <span className="ResaltarAmarillo">Ver proyecto -{">"} </span>
-</a>
+</a> 
 */

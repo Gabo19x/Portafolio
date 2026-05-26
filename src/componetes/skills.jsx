@@ -13,10 +13,10 @@ export default function Skills() {
 
                     <h3>// <span>Frontend</span></h3>
                     <p>
-                        Manejo tecnologías como: <span className="ResaltarRojo">HTML, SCSS, JS</span>.
-                        También el framework de <span className="ResaltarRojo">REACT</span>.
-                        Manejo buenas practicas de desarrollo y arquitectura como diseño MOBILE FIRST.
-                        Trabajo por medio de <span className="ResaltarRojo">visual studio code</span>.
+                        Desarrollo con <span className="ResaltarRojo">HTML, SCSS, JS</span>. 
+                        Trabajo con <span className="ResaltarRojo">REACT</span> como
+                        framework principal, aplicando buenas prácticas como Mobile First
+                        y arquitectura de componentes. Uso <span className="ResaltarRojo">visual studio code</span> como entorno.
                     </p>
                 </article>
 
@@ -27,10 +27,11 @@ export default function Skills() {
 
                     <h3>// <span>Diseño</span></h3>
                     <p>
-                        Manejo la plataforma de <span className="ResaltarAmarillo">FIGMA</span>, para crear mockups.
-                        Tengo conocimientos en diseño web y experiencia <span className="ResaltarAmarillo">UI y UX</span>.
-                        Todo esto para deselvolverme mejor para estar con el cliente y entender mejor sus necesidades.
-                        </p>
+                        Diseño interfaces en <span className="ResaltarAmarillo">FIGMA</span> antes de escribir código: wireframes,
+                        mockups y prototipos. Aplico principios de UI/UX para construir
+                        productos que sean usables y visualmente coherentes.
+                        Todo esto para deselvolverme mejor en equipos de desarrollo y para estar con el cliente y entender mejor sus necesidades.
+                    </p>
                 </article>
 
                 <article>
@@ -39,12 +40,14 @@ export default function Skills() {
                     </svg>
 
 
-                    <h3>// <span>Otros</span></h3>
+                    <h3>// <span>Herramientas</span></h3>
                     <p>
-                        Se consumir <span className="ResaltarRojo">APIs</span> y crear funciones backend para una mejor experiencia en las web.
-                        Claramente, uso el sistema de repositorios de <span className="ResaltarRojo">github</span>.
-                        Algo importante a destacar, es el uso profesional de <span className="ResaltarRojo">herramientas IA</span> para 
-                        la productividad y depuración, como: claude, kilo code, etc...
+                        Integro <span className="ResaltarRojo">APIs</span> REST en mis aplicaciones y uso servicios BaaS como
+                        Airtable para gestionar datos. Implemento funciones serverless para
+                        lógica de backend sin infraestructura propia.
+                        Tambien gestiono mis proyectos con Git y <span className="ResaltarRojo">Github</span>. Utilizo <span className="ResaltarRojo">herramientas IA</span> (Claude, Kilo Code)
+                        de forma profesional para optimizar mi desarrollo, depurar código
+                        y acelerar entregas.
                     </p>
                 </article>
             </section>

@@ -9,6 +9,7 @@ export default function SobreMi() {
             <p>
               Soy desarrollador <span className="ResaltarAmarillo">web frontend con enfoque en React</span>, diseño UI/UX y experiencia construyendo productos reales. 
               Me especializo en crear interfaces funcionales, bien diseñadas y pensadas para el usuario, combinando código y criterio de diseño en cada proyecto.
+              Ademas, conozco la herramienta BaaS de <span className="ResaltarAmarillo">SUPABASE</span> para crear aplicaciones robustas y completas.
             </p>
             <br />
             <p>

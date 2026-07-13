@@ -1,15 +1,27 @@
 export default function ProyectosAparte() {
     return (
         <div>
+            <a className="Proyectos_elemento" href="https://github.com/Gabo19x/LibroCocina">
+                <p className="Proyectos_fecha">/2026</p>
+                <h3>🍖 Libro de cocina</h3>
+                <p>
+                    Aplicación web de recetas de cocina con sistema de autenticación, roles de usuario y gestión completa de contenido, 
+                    como: ver recetas, crear usuario, guardar favoritos, sistema de busqueda, sistema de administracion.
+                    Usa como backend <span className="ResaltarRojo">supabase API</span> y como frontend: <span className="ResaltarRojo">REACT</span>.
+                    Fue previamente diseñada en <span className="ResaltarRojo">FIGMA</span>.
+                </p>
+                <span className="ResaltarRojo">Ver proyecto -{">"} </span>
+            </a>
+
             <a className="Proyectos_elemento" href="https://www.figma.com/proto/UnGNbg0xyrNtSdanLustvT/Portfolio-%E2%80%94-Pixel-Art-Dark?node-id=7-77&t=p75wbxYx92sfFQN4-1&scaling=min-zoom&content-scaling=fixed&page-id=7%3A74">
             
                 <p className="Proyectos_fecha">/2026</p>
                 <h3>🏆 Diseño de portafolio</h3>
                 <p>
-                    Es el diseño elaborado en <span className="ResaltarRojo">FIGMA</span> de esta misma página, 
+                    Es el diseño elaborado en <span className="ResaltarAmarillo">FIGMA</span> de esta misma página, 
                     la cual engloba todos los proyectos elaborados por mi persona.
                 </p>
-                <span className="ResaltarRojo">Ver proyecto-{">"} </span>
+                <span className="ResaltarAmarillo">Ver proyecto-{">"} </span>
             
             </a>
             
@@ -19,9 +31,9 @@ export default function ProyectosAparte() {
                 <h3>🤖 Browser IA</h3>
                 <p>
                     Es una página web, la cual imita servicios como Claude o ChatGPT, donde puedes usar una IA localmente.
-                    Usa la librería <span className="ResaltarAmarillo">WEB-LLM</span>, y elaborada en <span className="ResaltarAmarillo">JS</span>.
+                    Usa la librería <span className="ResaltarRojo">WEB-LLM</span>, y elaborada en <span className="ResaltarRojo">JS</span>.
                 </p>
-                <span className="ResaltarAmarillo">Ver proyecto -{">"} </span>
+                <span className="ResaltarRojo">Ver proyecto -{">"} </span>
             
             </a>
 
@@ -30,12 +42,12 @@ export default function ProyectosAparte() {
                 <p className="Proyectos_fecha">/2026</p>
                 <h3>🎶 Máquina rítmica IA</h3>
                 <p>
-                    Es una demostración de uso de IA, por medio de <span className="ResaltarRojo">artefactos CLAUDE </span>
+                    Es una demostración de uso de IA, por medio de <span className="ResaltarAmarillo">artefactos CLAUDE </span>
                     el cual se integra en una web propia, pero ademas modifique aspectos para hacer mas completa la web,
                     como ejemplos, un tamaño aumentado, eliminacion de objetos innecesarios y posibilidad de descargar los ritmos.
                     
                 </p>
-                <span className="ResaltarRojo">Ver proyecto -{">"} </span>
+                <span className="ResaltarAmarillo">Ver proyecto -{">"} </span>
             
             </a>
 
@@ -43,21 +55,9 @@ export default function ProyectosAparte() {
                 <p className="Proyectos_fecha">/2025</p>
                 <h3>🎮 Biblioteca de videojuegos</h3>
                 <p>
-                    Es una web para la <span className="ResaltarAmarillo">desarrolladora de juegos TooG inc</span>.
+                    Es una web para la <span className="ResaltarRojo">desarrolladora de juegos TooG inc</span>.
                     la cual muestra, todos los juegos desarrollados: resúmenes, wikis; además de políticas de privacidad,
                     redes sociales y otros proyectos.
-                    Se consume una <span className="ResaltarAmarillo">API</span> de airtable.
-                    Fue previamente diseñada en <span className="ResaltarAmarillo">FIGMA</span>.
-                </p>
-                <span className="ResaltarAmarillo">Ver proyecto -{">"} </span>
-            </a>
-
-            <a className="Proyectos_elemento" href="https://jardin-culinario.netlify.app">
-                <p className="Proyectos_fecha">/2024</p>
-                <h3>🍖 Libro de cocina</h3>
-                <p>
-                    Es una página web, la cual es un libro de cocina, donde muestra recetas: resumen, ingredientes, pasos.
-                    También, se puede buscar recetas y filtrarlas.
                     Se consume una <span className="ResaltarRojo">API</span> de airtable.
                     Fue previamente diseñada en <span className="ResaltarRojo">FIGMA</span>.
                 </p>
@@ -74,7 +74,6 @@ export default function ProyectosAparte() {
                 </p>
                 <span className="ResaltarAmarillo">Ver proyecto -{">"} </span>
             </a>
-
             
         </div>
     );

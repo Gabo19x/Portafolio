@@ -43,7 +43,7 @@ export default function Skills() {
                     <h3>// <span>Herramientas</span></h3>
                     <p>
                         Integro <span className="ResaltarRojo">APIs</span> REST en mis aplicaciones y uso servicios BaaS como
-                        Airtable para gestionar datos. Implemento funciones serverless para
+                        Supabase para gestionar datos, autenticaciones, entre otros. Implemento funciones serverless para
                         lógica de backend sin infraestructura propia.
                         Tambien gestiono mis proyectos con Git y <span className="ResaltarRojo">Github</span>. Utilizo <span className="ResaltarRojo">herramientas IA</span> (Claude, Kilo Code)
                         de forma profesional para optimizar mi desarrollo, depurar código

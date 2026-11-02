@@ -1,6 +1,22 @@
 export default function ProyectosAparte() {
     return (
         <div>
+            <a className="Proyectos_elemento" href="https://gabispets.vercel.app/">
+                <p className="Proyectos_fecha">/2026</p>
+                <h3>🐶 Agendamiento para Gabi´s Pets</h3>
+                <p>
+                    Aplicacion web <span className="ResaltarAmarillo">destinada para una pet shop y grommer canino. </span>
+                    Donde es un sistema cerrado y seguro para el agendamiento y manejo de clientes,
+                    existe de manera publica: agenda publica y landing page. 
+                    Y privadamente: manejo total de clientes con sus datos,
+                    manejo de agenda privada, para agendamiento de citas, control y seguimiento, ademas hay sistema de usuarios protegido.
+                    
+                    Usa como backend <span className="ResaltarAmarillo">supabase API</span> y como frontend: <span className="ResaltarAmarillo">REACT</span>.
+                    Fue previamente diseñada en <span className="ResaltarAmarillo">FIGMA</span>.
+                </p>
+                <span className="ResaltarAmarillo">Ver proyecto -{">"} </span>
+            </a>
+
             <a className="Proyectos_elemento" href="https://github.com/Gabo19x/LibroCocina">
                 <p className="Proyectos_fecha">/2026</p>
                 <h3>🍖 Libro de cocina</h3>
@@ -66,7 +82,7 @@ export default function ProyectosAparte() {
 
             <a className="Proyectos_elemento" href="https://supreme-cashew.netlify.app/">
                 <p className="Proyectos_fecha">/2024</p>
-                <h3>⭐ Tienda de marañones</h3>
+                <h3>⭐ Landing marañones</h3>
                 <p>
                     Fue una <span className="ResaltarAmarillo">propuesta presentada a un posible cliente</span>,
                     la cual se le ofrecía la elaboración de una landing page del negocio para tener presencia digital.

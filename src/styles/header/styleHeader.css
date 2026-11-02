@@ -86,11 +86,6 @@ header {
   /* Media query Moviles */
 }
 @media (max-width: 1000px) {
-  header {
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-  }
   header img {
     margin-top: 20px;
     height: 200px;

@@ -7,7 +7,7 @@ export default function Header() {
             <section className="Header_SeccionPresentacion" id="SeccionPrese">
                 <p>Bienvenido a mi portafolio. Hola soy...</p>
 
-                <h1>Gabriel Arturo Pinzón Páez</h1>
+                <h1>Gabriel A. Pinzón P.</h1>
                 <h2>Desarrollador web, enfocado en el frontend</h2>
                 <p>"Los grandes productos, son primero: útiles, luego usables, por ultimo bonitos" - Anónimo</p>
 
